@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kochać Pszczoły</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body class="home">
+  <header>
+    <h1>PROJEKT PSZCZÓŁKI</h1><br>
+    <h2>Menu Szczegółowych Informacji</h2>
+    <nav>
+      <ul>
+        <li><a href="rodzaje.html">Rodzaje Pszczół</a></li>
+        <li><a href="występowanie.html">Obszar Występowania</a></li>
+        <li><a href="środowisko.html">Ochrona i Wpływ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <section class="główna">
+        <h1>Strona Główna</h1>
+        <h2>Informacje Ogólne</h2>
+        <aside>
+            <img src="baner.jpg" alt="baner">
+            <p>Zapylanie: Pszczoły są jednymi z najważniejszych zapylaczy w przyrodzie. Podczas zbierania nektaru i pyłku z kwiatów, przynoszą pyłek z pręcików do znamion innych kwiatów, co umożliwia proces zapylania i rozmnażania roślin. Dzięki temu przyczyniają się do produkcji owoców, nasion i utrzymania różnorodności biologicznej.
+
+                Rodzaje pszczół: Istnieje wiele różnych rodzajów pszczół, w tym pszczoły miodne (Apis), trzmiele (Bombus), osy (Vespidae) i dzikie pszczoły (np. pszczoły samotnicze). Każdy z tych rodzajów ma unikalne cechy, zachowania i preferencje dotyczące siedlisk.
+                
+                Budowa społeczna: Pszczoły miodne i trzmiele to społeczne owady, które organizują się w kolonie z podziałem pracy. W kolonii występuje podział na królową (odpowiedzialną za produkcję jaj), trutnie (samce) i robotnice (odpowiedzialne za zbieranie pożywienia, opiekę nad larwami i inne zadania).
+                
+                Produkty pszczelarskie: Pszczoły miodne produkują miód, wosk pszczoły, propolis (żywicę roślinną zbieraną przez pszczoły), a także pierzgę (mieszankę pyłku i nektaru, które są głównym źródłem białka dla pszczół młodocianych).
+                
+                Zagrożenia: Pszczoły są obecnie zagrożone przez wiele czynników, takich jak utrata siedlisk, zanieczyszczenie środowiska, stosowanie pestycydów, pasożyty (np. roztocze Varroa) oraz zmiany klimatyczne. Wielu gatunków pszczół jest zagrożonych wymarciem.</p>
+        </aside>
+    </section>
+    <section class="korzyści">
+        <aside>
+            <h2 class="b">Korzyści jakie przynoszą pszczoły:</h2>
+            <ol start="1">
+                <li class="j">Zapylanie roślin:</li>
+                <ul><li>Pszczoły są niezwykle ważne dla procesu zapylania roślin. Podczas zbierania nektaru i pyłku z kwiatów, przenoszą pyłek z pręcików do słupek, co prowadzi do powstawania owoców, nasion i rozmnażania roślin. Zapylanie pszczele jest kluczowe dla utrzymania różnorodności biologicznej i plonów rolnych.</li></ul>
+                <li class="j">Produkcja miodu:</li>
+                <ul><li>Pszczoły produkują miód, który jest cenionym produktem spożywczym. Zebrany nektar jest przetwarzany w ulu na miód przez pszczoły. Miód jest bogaty w składniki odżywcze, antyoksydanty i ma właściwości lecznicze. Jest również składnikiem wielu potraw i napojów.</li></ul>
+                <li class="j">Produkcja wosku pszczeliego:</li>
+                <ul><li>Pszczoły wytwarzają wosk pszczeli, który jest używany do budowania plastrów w ulu. Wosk pszczeli ma wiele zastosowań, takich jak produkcja świec, kosmetyków, produktów do pielęgnacji skóry i wiele innych.</li></ul>
+                <li class="j">Polinizacja upraw:</li>
+                <ul><li>Pszczoły odgrywają kluczową rolę w polinizacji wielu upraw rolnych, takich jak owoce, warzywa, orzechy i nasiona. Ich działalność zapewnia większą wydajność upraw, co ma bezpośredni wpływ na produkcję żywności.</li></ul>
+                <li class="j">Dziedzictwo ekologiczne:</li>
+                <ul><li>Pszczoły są istotnym elementem ekosystemów naturalnych. Ich obecność sprzyja utrzymaniu równowagi ekologicznej i różnorodności biologicznej. Pszczoły przyczyniają się do zapylania roślin dziko rosnących, co jest istotne dla utrzymania różnorodności przyrody.</li></ul>
+                <li class="j">Gospodarka ekonomiczna:</li>
+                <ul><li>Pszczoły mają duże znaczenie ekonomiczne. Miód, wosk pszczeli i inne produkty pszczelarskie są przedmiotem handlu i przemysłu, co przyczynia się do tworzenia miejsc pracy i generowania dochodów.</li></ul>
+                <li class="j">Zachowanie środowiska naturalnego:</li>
+                <ul><li>Przez swoją rolę w zapylaniu roślin i utrzymaniu równowagi ekologicznej, pszczoły pomagają w zachowaniu i ochronie środowiska naturalnego. Chroniąc pszczoły, przyczyniamy się do zachowania różnorodności biologicznej i stabilności ekosystemów.</li></ul>
+              </ol>
+        </aside>
+    </section>
+
+  <section class="kontakt">
+    <h2>Skontaktuj sie znami w celu otrzymania dodatkowych informacji</h2>
+    <form action="wiadomość" method="POST">
+        <label for="name">Imię i Nazwisko:</label>
+        <input type="text" id="dane" name="name" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Treść tojego zapytania:</label>
+        <textarea id="wiadomość" name="message" required></textarea>
+        
+        <input type="submit" value="Wyślij">
+      </form>
+  </section>
+</body>
+</html>
